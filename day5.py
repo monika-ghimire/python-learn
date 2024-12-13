@@ -140,4 +140,4 @@ name = 'suman suman GAUTAM GAUTAM'
 
 # print(name.split())
 
-# print(dir(str))
+print(dir(str))
