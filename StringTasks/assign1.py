@@ -29,7 +29,7 @@ print('7', s.replace(" ", "_"))
 
 # 8.Check if a string is a valid number.
 s = "123.45"
-print('8', s.replace(".", "", 1).isdigit() or s.lstrip('-').isdigit())
+print('8', s.replace(".", "", 1).isdigit())
   # Output: True
 
 # 9.	Count words in a sentence.
@@ -53,7 +53,7 @@ names = ['ram', 'shyam', 'hari', 'manoj']
 result = ",".join(names)
 print('12',result)  # Output: ram,shyam,hari,manoj
 
-# 13. 	Replace the substring "World" with "Python" in the string str = "Hello World" to form a new string "Hello Python".
+# 13.Replace the substring "World" with "Python" in the string str = "Hello World" to form a new string "Hello Python".
 s = "Hello World"
 new_s = s.replace("World", "Python")
 print('13',new_s)  # Output: Hello Python
